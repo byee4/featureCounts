@@ -1,0 +1,32 @@
+### Required arguments
+bams:
+  - class: File
+    path: example_data/chr21_1.bam
+  - class: File
+    path: example_data/chr21_2.bam
+
+annotation:
+  class: File
+  path: example_data/hg19.gencode_v19.chr21.gtf
+
+### Required-ish arguments (not required but good to check):
+strand: 2
+pairs: false
+primary_only: false
+
+### Optional arguments
+# orientation: fr
+# pair_validity: false
+# count_paired_map_only: false
+# discard_diff_chrom_mapping_pairs: false
+# file_format: GTF
+# feature_type: exon
+# attribute_type: gene_id
+# feature_level: false
+# min_fragment_length: 50
+# max_fragment_length: 600
+# overlap: false
+# min_overlap: 1
+# largest_overlap: false
+# multimapping: false
+# threads: 1

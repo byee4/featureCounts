@@ -1,0 +1,14 @@
+name: featureCounts
+channels: !!python/tuple
+- !!python/unicode
+  'conda-forge'
+- !!python/unicode
+  'http://conda.anaconda.org/bioconda'
+- !!python/unicode
+  'http://conda.anaconda.org/bcbio'
+- !!python/unicode
+  'r'
+- !!python/unicode
+  'defaults'
+prefix: /home/bay001/anaconda/envs/featureCounts
+
